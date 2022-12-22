@@ -12,7 +12,7 @@ Functionnal Components => fonctions JS
 Class Components => class
 ex : class Car extends React.Component
 
-- []Conditionnal Rendering
+- [] Conditionnal Rendering
 
 - [] Events
 
