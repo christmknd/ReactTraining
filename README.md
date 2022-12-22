@@ -12,11 +12,31 @@ Functionnal Components => fonctions JS
 Class Components => class
 ex : class Car extends React.Component
 
-- [] Conditionnal Rendering
+- [x] Conditionnal Rendering
 
 - [] Events
+Les évènements du clavier
+onKeyDown
+onKeyPress
+onKeyUp
+
+Événements de formulaire
+onChange
+onInput
+onInvalid
+onReset
+onSubmit
+
+Événements de la souris
+onClick
+onDrag
+onDrag
+
 
 Basic Hooks
+Les Hooks
+- doivent être appelé à la racine de la fonction
+- doivent être appelé uniquement depuis des fonctionnal components
 - [] useState / useEffects
 ```
 
