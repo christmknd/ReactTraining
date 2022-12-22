@@ -14,44 +14,29 @@ ex : class Car extends React.Component
 
 - [x] Conditionnal Rendering
 
-- [] Events
+- [x] Events
 Les évènements du clavier
-onKeyDown
-onKeyPress
-onKeyUp
+onKeyDown,onKeyPress,onKeyUp
 
 Événements de formulaire
-onChange
-onInput
-onInvalid
-onReset
-onSubmit
+onChange,onInput,onInvalid,onReset,onSubmit
 
 Événements de la souris
-onClick
-onDrag
-onDrag
+onClick,onDrag,onDrag
 
 
 Basic Hooks
 Les Hooks
 - doivent être appelé à la racine de la fonction
 - doivent être appelé uniquement depuis des fonctionnal components
-- [] useState / useEffects
+- [X] useState / useEffects
 ```
 
 ## Notions avancés
 
 ```bash
 Hooks :
-- [] useCallback
-- [] useRef
-- [] useMemo
-- [] useContext
-- [] useReducer
-
-Autres
-Context
+- [x] useContext
 ```
 
 ## Ecosystem React
