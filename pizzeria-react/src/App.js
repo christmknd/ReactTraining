@@ -1,8 +1,9 @@
 import './App.css';
+import NameForm from './components/NameForm';
 import Login from './components/layouts/Login';
 import Nav from './components/layouts/Nav';
 import Footer from './components/layouts/Footer';
-import Panier from './components/layouts/Panier';
+import Panier from './components/Panier';
 import Pizzamaker from './components/Pizzamaker';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Login/>
       <Panier/>
       <Pizzamaker/>
+      <NameForm/>
       <Footer/>
     </div>
   );
