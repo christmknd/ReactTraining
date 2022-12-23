@@ -1,3 +1,36 @@
 .App {
   text-align: center;
 }
+
+/* navigation */
+.menu {
+  overflow: hidden;
+
+}
+
+.menu .left-menu {
+  float: left;
+}
+
+.menu .right-menu {
+  float: left;
+}
+
+.nameform {
+  text-align: center;
+}
+
+.panier {
+  text-align: center;
+}
+
+.pizzamaker {
+  text-align: center;
+
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+}

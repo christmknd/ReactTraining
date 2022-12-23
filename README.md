@@ -44,8 +44,7 @@ Hooks :
 ```bash
 - [] Vitest / Jest
 - [] State : Redux
-- [] Style : Material UI
-- [] Routing : React Router
+- [x] Routing : React Router
 - [x] SSR : NextJS
 - [x] SSG : Gastby
 - [] API Calls : Axios

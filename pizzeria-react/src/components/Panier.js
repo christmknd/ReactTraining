@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+
 
 //Conditionnal renderinf
 const Panier = () => {
     const products = ["peperoni", "chèvre miel"];
 
   return (
-    <div>
+    <div className='panier'>
         <h2>Panier</h2>
         {products.length>0 && (
              <div>

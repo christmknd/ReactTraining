@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import '../../App.css';
 
 const Nav = () => {
 
@@ -9,8 +11,10 @@ const Nav = () => {
             </div>
             <div className='right-menu'>
                 <ul>
-                    <li> <a href="accueil"> Accueil</a></li>
-                    <li><a href="panier">Panier</a></li>
+                  <Link to={"/"}>Accueil</Link> |
+                  <Link to={"/nameform"}>Nameform</Link> |
+                  <Link to={"/panier"}>Panier</Link> |
+                  <Link to={"/pizzamaker"}>Pizzamaker</Link> 
                 </ul>
             </div>
     </nav>

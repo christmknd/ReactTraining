@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import '../App.css';
 
 const NameForm = () => {
     let [name, setName] = useState('');
@@ -11,7 +12,7 @@ const NameForm = () => {
     }
 
   return (
-    <div className='formname'>
+    <div className='nameform'>
         <form>
            <h4>Votre nom est <span style={{color : 'red'}}>{name}</span></h4> 
            <input
