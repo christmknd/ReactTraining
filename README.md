@@ -46,7 +46,7 @@ Hooks :
 - [] State : Redux
 - [] Style : Material UI
 - [] Routing : React Router
-- [] SSR : NextJS
-- [] SSG : Gastby
+- [x] SSR : NextJS
+- [x] SSG : Gastby
 - [] API Calls : Axios
 ```
