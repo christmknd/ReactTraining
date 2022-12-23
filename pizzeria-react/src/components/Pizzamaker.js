@@ -41,8 +41,8 @@ const Pizzamaker = () => {
     <div className='pizzamaker'>
         <h3>Construisez votre propre pizza</h3>
         <div className='counter'>
-            <p> {cheese} Cheese</p>
-            <p>{ham} Ham</p>
+            <p data-testid = "cheese-counter"> {cheese} Cheese</p>
+            <p data-testid = "ham-counter"> {ham} Ham</p>
         </div>
         <div className='cheese-actions'>
             <button onClick={(increment)}> Add Cheese</button>
