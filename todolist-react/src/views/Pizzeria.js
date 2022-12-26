@@ -5,7 +5,7 @@ import Pizzamaker from "../components/pizza/Pizzamaker";
 
 function Pizzeria () {
     return (
-        <div classname='pizzeria'>
+        <div className='pizzeria'>
             <Login/>
             <NameForm/>
             <Pizzamaker/>

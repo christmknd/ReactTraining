@@ -23,11 +23,17 @@ function TodoForm () {
               text: todo.trim()
             }
           ]);
-        }
-    
-        // clear out the input box
+        }    
         setTodo("");
       }
+
+      function deleteTodo (id) {
+        const removeItem = todos.filter((todo) => {
+            return todo.id !== id;
+          });
+          setTodos(removeItem);
+        }
+      
 
   return (
     <div className="todo-form">
@@ -43,7 +49,9 @@ function TodoForm () {
         <div className="todo-list">
             <ul>
             {todos.map((todo) => (
-                <li key={todo.id}>{todo.text}</li>
+                <li key={todo.id}>
+                    {todo.text} <button onClick={() => deleteTodo(todo.id)}>X</button>
+                </li>
             ))}
             </ul>
         </div>
