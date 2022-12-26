@@ -2,7 +2,8 @@
 
 ## Idée de projet
 
-L'idée de projet ici pour tester les notions sera la création d'une pizerria en ligne
+Projet classique : Todolist
+On va quand même garder les composants déja crée
 
 ## Fondamentaux
 

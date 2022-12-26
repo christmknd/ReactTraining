@@ -8,10 +8,10 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Error from './components/Error';
 import Footer from './components/layouts/Footer';
-import NameForm from './components/NameForm';
+import NameForm from './components/pizza/NameForm';
 import Nav from './components/layouts/Nav';
-import Panier from './components/Panier';
-import Pizzamaker from './components/Pizzamaker';
+import Panier from './components/pizza/Panier';
+import Pizzamaker from './components/pizza/Pizzamaker';
 
 //styles
 import './index.css';
