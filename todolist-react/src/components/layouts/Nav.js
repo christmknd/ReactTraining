@@ -12,10 +12,8 @@ const Nav = () => {
             <div className='right-menu'>
                 <ul>
                   <Link to={"/"}>Accueil</Link> |
-                  <Link to={"/nameform"}>Nameform</Link> |
-                  <Link to={"/panier"}>Panier</Link> |
-                  <Link to={"/pizzamaker"}>Pizzamaker</Link> 
-                </ul>
+                  <Link to={"/pizzeria"}>Pizzeria</Link> |
+                  <Link to={"/todo"}>Todolist</Link> |                </ul>
             </div>
     </nav>
   )

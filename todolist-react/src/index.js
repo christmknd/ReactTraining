@@ -6,12 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 //components
 import App from './App';
-import Error from './components/Error';
-import Footer from './components/layouts/Footer';
-import NameForm from './components/pizza/NameForm';
 import Nav from './components/layouts/Nav';
-import Panier from './components/pizza/Panier';
-import Pizzamaker from './components/pizza/Pizzamaker';
+import Footer from './components/layouts/Footer';
+import Pizzeria from './views/Pizzeria';
+import Todo from './views/Todo';
+import Error from './components/Error';
 
 //styles
 import './index.css';
@@ -26,9 +25,8 @@ root.render(
     <Nav/>
     <Routes>
     <Route exact path= "/" element={ <App />}></Route>
-    <Route exact path= "/nameform" element={ <NameForm />}></Route>
-    <Route exact path= "/panier" element={ <Panier/>}></Route>
-    <Route exact path= "/pizzamaker" element={ <Pizzamaker/>}></Route>
+    <Route exact path= "/pizzeria" element={ <Pizzeria />}></Route>
+    <Route exact path= "/todo" element={ <Todo/>}></Route>
     <Route path= "*" element={ <Error/>}></Route>
     </Routes>
     <Footer/>

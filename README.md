@@ -2,8 +2,7 @@
 
 ## Idée de projet
 
-Projet classique : Todolist
-On va quand même garder les composants déja crée
+Deux projets : une pizzeria et une todolist
 
 ## Fondamentaux
 

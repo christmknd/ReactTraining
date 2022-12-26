@@ -1,11 +1,10 @@
 import './App.css';
-import Login from './components/layouts/Login';
+import Home from './views/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Bienvenue sur la React Pizzeria </h1>
-      <Login/>
+      <Home/>
     </div>
   );
 }
