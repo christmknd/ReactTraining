@@ -2,10 +2,15 @@
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* navigation */
 .menu {
   overflow: hidden;
-
+  margin: 5px;
+  background-color: whitesmoke;
 }
 
 .menu .left-menu {
@@ -13,7 +18,18 @@
 }
 
 .menu .right-menu {
-  float: left;
+  float: right;
+}
+
+.menu .right-menu a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.menu .right-menu a:hover {
+  color: grey;
 }
 
 .nameform {
@@ -29,8 +45,13 @@
 
 }
 
+.todoform {
+  text-align: center;
+}
+
 /* footer */
 
 .footer {
   text-align: center;
+  background-color: whitesmoke;
 }
