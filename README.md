@@ -3,6 +3,10 @@
 ## Idée de projet
 
 Deux projets : une pizzeria et une todolist
+Amélioration possible :
+
+- Editer une tâche
+- ajouter des états comme active et done
 
 ## Fondamentaux
 
